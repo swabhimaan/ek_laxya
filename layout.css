@@ -29,7 +29,7 @@ header {
 
 .tm-bullets ul li {
     top: 200px;
-    left: 30px;
+    left: 60px;
     text-decoration: none;
     list-style-type: square;
     font-family: sans-serif;
@@ -37,7 +37,8 @@ header {
     padding-bottom: 20px;
     color: teal;
     position: relative;
-    font-size: 20px;
+    font-size: 50px;
+    width:400px;
 }
 
 
