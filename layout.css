@@ -1,12 +1,12 @@
-body {
-    background-image: url("images/Back.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 * {
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+
+.tm-index {
+    max-width: 1530px;
+    height: 640px;
 }
 
 header {
@@ -14,24 +14,23 @@ header {
     width: 100%;
 }
 
-.tm-bullets {
-    position: relative;
-    top: 200px;
-    font-size: 20px;
-    left: 20px;
-    padding: 20px;
+.tm-back {
+    background-image: url("images/Back.png");
+    height: 100vh;
 }
 
 .tm-bullets p {
+    top: 350px;
     float: right;
     position: relative;
     text-align: center;
     font-family: serif;
     right: 600px;
-    top: 150px;
 }
 
 .tm-bullets ul li {
+    top: 200px;
+    left: 30px;
     text-decoration: none;
     list-style-type: square;
     font-family: sans-serif;
@@ -39,10 +38,7 @@ header {
     padding-bottom: 20px;
     color: teal;
     position: relative;
-}
-
-.tm-bullets ul {
-    color: teal;
+    font-size: 20px;
 }
 
 
@@ -57,3 +53,17 @@ header p {
     text-align: center;
     position: relative;
 } */
+
+
+/* Responsive Code*/
+
+@media screen and (max-width:1500px) {
+    .tm-bullets p {
+        position: relative;
+        top: 200px;
+        left: 0;
+        padding-bottom: 10px;
+        right: 0;
+        top: 100px;
+    }
+}
