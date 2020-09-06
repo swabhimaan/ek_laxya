@@ -1,12 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 .tm-index {
     max-width: 1530px;
-    height: 640px;
 }
 
 header {
