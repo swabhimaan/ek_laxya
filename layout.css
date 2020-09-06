@@ -1,0 +1,59 @@
+body {
+    background-image: url("images/Back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+.tm-bullets {
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    left: 20px;
+    padding: 20px;
+}
+
+.tm-bullets p {
+    float: right;
+    position: relative;
+    text-align: center;
+    font-family: serif;
+    right: 600px;
+    top: 150px;
+}
+
+.tm-bullets ul li {
+    text-decoration: none;
+    list-style-type: square;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: teal;
+    position: relative;
+}
+
+.tm-bullets ul {
+    color: teal;
+}
+
+
+/* header h1 {
+    font-size: 40px;
+    position: fixed;
+    text-align: center;
+}
+
+header p {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+} */
